@@ -9,3 +9,5 @@ class Circle:
     def calc_perimeter(self):
         p = 22/7 * self.circle_radius * 2
         print(f"Circumference is {p}")
+
+c1 = Circle(10)
