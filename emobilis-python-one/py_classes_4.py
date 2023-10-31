@@ -21,7 +21,7 @@ class Account:
 
 class DollarAccount(Account):
     def rates(self):
-        return 153.89
+        return 153.80
 
     def deposit(self, amount):
         usd = amount/self.rates()
