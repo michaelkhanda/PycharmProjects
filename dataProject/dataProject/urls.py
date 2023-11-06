@@ -1,5 +1,5 @@
 """
-URL configuration for ecommerceSite project.
+URL configuration for dataProject project.
 
 The `urlpatterns` list routes URLs to views. For more information please see:
     https://docs.djangoproject.com/en/4.2/topics/http/urls/
@@ -17,13 +17,6 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 
-from main_app import views
-
 urlpatterns = [
-    path("", views.home, name='home'),
-    path("shop", views.shop, name='shop'),
-    path("about", views.about, name='about'),
-    path("contact", views.contact, name='contact'),
-    path("faq", views.faq, name='faq'),
     path("admin/", admin.site.urls),
 ]
