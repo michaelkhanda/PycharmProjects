@@ -23,7 +23,7 @@ class Command(BaseCommand):
                     email=e['email'],
                     dob=e['dob'],
                     salary=e['salary'],
-                    disabled=e['disabled']
+                    disabled=e['disbled']
                 )
         self.stdout.write(
             self.style.SUCCESS('Completed Importing Data')
