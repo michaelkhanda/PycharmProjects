@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'main_app.apps.MainAppConfig',
     "crispy_forms",
     "crispy_bootstrap5",
+    "django.contrib.humanize"
 ]
 
 CRISPY_ALLOWED_TEMPLATE_PACKS = "bootstrap5"
