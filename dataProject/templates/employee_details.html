@@ -6,8 +6,9 @@
 {% endblock %}
 
 {% block content %}
-    <div class="container">
-        <div class="row">
+    {% include 'navbar.html' %}
+    <div class="container center">
+        <div class="row justify-content-center">
             <div class="col-sm-5">
                 <div class="card">
                     {% if employee.profile %}
@@ -16,7 +17,7 @@
 
                     <div class="card-body">
                         <h2 class="card-title">Name: {{ employee.name }}</h2>
-                        <p class="card-text">Ksh: {{ employee.salary }}</p>
+                        <p class="card-text">Ksh: {{ employee.salary | intcomma }}</p>
                         <p class="card-text">Born on: {{ employee.dob }}</p>
                         <p class="card-text">Address: {{ employee.email }}</p>
                         <p class="card-text">Added On: {{ employee.created_at | naturaltime }}</p>
