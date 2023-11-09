@@ -1,0 +1,42 @@
+{% extends 'base_template.html' %}
+{% load humanize %}
+
+{% block title %}
+    All Employees List
+{% endblock %}
+
+{% block content %}
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-7">
+                <table class="table">
+                    <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Email</th>
+                        <th>DOB</th>
+                        <th>Salary</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    {% for employee in employees %}
+                        <tr>
+                            <td>
+                                <a href="/employees/{{ employee.id }}">{{ employee.name | title }}</a>
+                            </td>
+                            <td>{{ employee.email }}</td>
+                            <td>{{ employee.dob | date:'d-m-y' }}</td>
+                            <td>{{ employee.salary | intcomma }}</td>
+                        </tr>
+                    {% endfor %}
+
+                    </tbody>
+
+                </table>
+
+            </div>
+        </div>
+    </div>
+{% endblock %}
+
+
