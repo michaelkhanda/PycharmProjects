@@ -29,14 +29,15 @@ def all_employees(request):
     # employees = Employee.objects.all()# SELECT * FROM employees
     # employees = Employee.objects.all().order_by("salary")
     # employees = Employee.objects.filter(name__startswith="La").order_by("dob")
-    employees = Employee.objects.filter(name__startswith="La", salary__gt=45000).order_by("dob")
-    employees = Employee.objects.filter(Q(name__contains="la") | Q(salary__gt=70000))
-    today = datetime.today()
-    day = today.day
-    month = today.month
-
-    employees = Employee.objects.filter(Q(name__contains="la") | ~Q(salary__gt=70000))
-    employees = Employee.objects.filter(dob__day=day, dob__month=month)
+    # employees = Employee.objects.filter(name__startswith="La", salary__gt=45000).order_by("dob")
+    # employees = Employee.objects.filter(Q(name__contains="la") | Q(salary__gt=70000))
+    # today = datetime.today()
+    # day = today.day
+    # month = today.month
+    #
+    # employees = Employee.objects.filter(Q(name__contains="la") | ~Q(salary__gt=70000))
+    # employees = Employee.objects.filter(dob__day=day, dob__month=month)
+    employees = Employee.objects.all()
     return render(request, "all_employees.html", {"employees": employees})
 
 
