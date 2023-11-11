@@ -2,7 +2,7 @@
 {% load crispy_forms_filters %}
 
 {% block title %}
-    Add Employee
+    Update Employee
 {% endblock %}
 
 {% block content %}
@@ -10,11 +10,10 @@
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-sm-4">
-                {% include 'alerts.html' %}
-                <form action="" method="post" enctype="multipart/form-data" class="shadow py-5 px-5">
+                <form action="{{ request.path }}" method="post" enctype="multipart/form-data" class="shadow py-5 px-5">
                     {% csrf_token %}
                     {{ form | crispy }}
-                    <button class="btn btn-dark">Add Employee</button>
+                    <button class="btn btn-dark">Update Employee</button>
                 </form>
             </div>
 
