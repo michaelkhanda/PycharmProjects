@@ -65,3 +65,7 @@ def search_employees(request):
     page_number = request.GET.get('page')
     data = paginator.get_page(page_number)
     return render(request, "all_employees.html", {"employees": data})
+
+
+def employee_update(request):
+    return None
