@@ -22,10 +22,19 @@
                         <p class="card-text">Address: {{ employee.email }}</p>
                         <p class="card-text">Added On: {{ employee.created_at | naturaltime }}</p>
 
+                        {% if perms.main_app.delete_employee %}
+                            <a href="{% url 'update' employee.id %}" class="btn btn-primary w-50 mt-2">Update</a>
+                        {% endif %}
 
 
-                        <a href="{% url 'update' employee.id %}" class="btn btn-primary w-50 mt-2">Update</a>
-                        <a href="{% url 'delete' employee.id %}" class="btn btn-danger w-50 mt-2">Delete</a>
+                        {% if perms.main_app.change_employee %}
+                            <a href="{% url 'delete' employee.id %}" class="btn btn-danger w-50 mt-2">Delete</a>
+                        {% endif %}
+
+
+
+                        {#                        <a href="{% url 'update' employee.id %}" class="btn btn-primary w-50 mt-2">Update</a>#}
+                        {#                        <a href="{% url 'delete' employee.id %}" class="btn btn-danger w-50 mt-2">Delete</a>#}
                     </div>
                 </div>
 

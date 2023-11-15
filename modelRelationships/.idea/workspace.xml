@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="fccb3c92-1ff8-461f-adf6-5dd260471157" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../dataProject/templates/403.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dataProject/templates/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main_app/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main_app/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main_app/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main_app/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main_app/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main_app/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main_app/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modelRelationships/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modelRelationships/asgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modelRelationships/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modelRelationships/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modelRelationships/wsgi.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataProject/dataProject/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/../dataProject/dataProject/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataProject/dataProject/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/../dataProject/dataProject/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataProject/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/../dataProject/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataProject/main_app/app_forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/../dataProject/main_app/app_forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataProject/main_app/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/../dataProject/main_app/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataProject/templates/base_template.html" beforeDir="false" afterPath="$PROJECT_DIR$/../dataProject/templates/base_template.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataProject/templates/employee_details.html" beforeDir="false" afterPath="$PROJECT_DIR$/../dataProject/templates/employee_details.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataProject/templates/navbar.html" beforeDir="false" afterPath="$PROJECT_DIR$/../dataProject/templates/navbar.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 5
+}]]></component>
+  <component name="ProjectId" id="2YD64EJG897unSChBJmdu5BxcA7" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="modelRelationships" type="Python.DjangoServer" factoryName="Django server">
+      <module name="modelRelationships" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fccb3c92-1ff8-461f-adf6-5dd260471157" name="Changes" comment="" />
+      <created>1700047613204</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1700047613204</updated>
+      <workItem from="1700047643410" duration="929000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
