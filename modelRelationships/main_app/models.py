@@ -7,13 +7,29 @@ class Artist(models.Model):
     email = models.EmailField(unique=True)
     phone = models.CharField(max_length=20, unique=True)
 
+    def __str__(self):
+        return self.name
 
+
+# many to many
 class Album(models.Model):
     name = models.CharField(max_length=100)
     release_year = models.IntegerField()
     artists = models.ManyToManyField(Artist)
 
+    def __str__(self):
+        # return self.name
+        return f"Album {self.name}-{self.release_year}"
 
+
+# one to many
 class Song(models.Model):
-    name = models.CharField(max_length=100)
+    title = models.CharField(max_length=100)
     duration = models.IntegerField()
+    album = models.ForeignKey(Album, on_delete=models.CASCADE, related_name='songs')
+
+    def __str__(self):
+        return self.title
+
+# TODO add one to one
+

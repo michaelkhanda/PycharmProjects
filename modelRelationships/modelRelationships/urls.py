@@ -17,6 +17,13 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 
+from main_app import views
+
 urlpatterns = [
+    path('', views.show, name='home'),
+    path('api/artists', views.save_or_fetch_artists, name='save_or_fetch_artists'),
+    path('api/artists/<int:id>/delete', views.fetch_one_artist, name='fetch_one_artist'),
+    path('api/artists/<int:id>/update', views.update_artist, name='update_artist'),
+    path('api/artists/<int:id>/albums', views.albums_for_artist, name='albums_for_artist'),
     path("admin/", admin.site.urls),
 ]
