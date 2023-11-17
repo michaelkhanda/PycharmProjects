@@ -1,5 +1,5 @@
 """
-URL configuration for modelRelationships project.
+URL configuration for daraja_apis project.
 
 The `urlpatterns` list routes URLs to views. For more information please see:
     https://docs.djangoproject.com/en/4.2/topics/http/urls/
@@ -20,11 +20,7 @@ from django.urls import path
 from main_app import views
 
 urlpatterns = [
-    path('', views.show, name='home'),
-    path('api/artists', views.save_or_fetch_artists, name='save_or_fetch_artists'),
-    path('api/artists/<int:id>/', views.fetch_one_artist, name='fetch_one_artist'),
-    path('api/artists/<int:id>/delete', views.delete_artist, name='fetch_one_artist'),
-    path('api/artists/<int:id>/update', views.update_artist, name='update_artist'),
-    path('api/artists/<int:id>/albums', views.albums_for_artist, name='albums_for_artist'),
+    path('', views.initiate_payment, name='initiate'),
+    path('callback', views.callback, name='callback'),
     path("admin/", admin.site.urls),
 ]

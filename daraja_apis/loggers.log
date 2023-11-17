@@ -1,0 +1,91 @@
+INFO 2023-11-17 12:01:20,522  33214  Watching for file changes with StatReloader
+INFO 2023-11-17 12:03:47,664  33214  /Users/michaelkhanda/Desktop/PycharmProjects/daraja_apis/main_app/views.py changed, reloading.
+INFO 2023-11-17 12:03:50,571  33294  Watching for file changes with StatReloader
+INFO 2023-11-17 12:05:17,711  33294  /Users/michaelkhanda/Desktop/PycharmProjects/daraja_apis/main_app/views.py changed, reloading.
+INFO 2023-11-17 12:05:19,797  33346  Watching for file changes with StatReloader
+INFO 2023-11-17 12:05:24,551  33346  +1 (979) 231-5298 57
+INFO 2023-11-17 12:05:27,714  33346  +1 (202) 265-7704 47
+INFO 2023-11-17 12:07:33,377  33346  /Users/michaelkhanda/Desktop/PycharmProjects/daraja_apis/daraja_apis/settings.py changed, reloading.
+INFO 2023-11-17 12:07:35,511  33394  Watching for file changes with StatReloader
+INFO 2023-11-17 12:20:42,882  33394  /Users/michaelkhanda/Desktop/PycharmProjects/daraja_apis/daraja_apis/settings.py changed, reloading.
+INFO 2023-11-17 12:20:43,858  33550  Watching for file changes with StatReloader
+INFO 2023-11-17 12:21:37,913  33550  /Users/michaelkhanda/Desktop/PycharmProjects/daraja_apis/daraja_apis/settings.py changed, reloading.
+INFO 2023-11-17 12:21:38,509  33572  Watching for file changes with StatReloader
+INFO 2023-11-17 12:22:03,156  33572  /Users/michaelkhanda/Desktop/PycharmProjects/daraja_apis/daraja_apis/settings.py changed, reloading.
+INFO 2023-11-17 12:22:03,889  33591  Watching for file changes with StatReloader
+INFO 2023-11-17 12:26:57,983  33591  /Users/michaelkhanda/Desktop/PycharmProjects/daraja_apis/daraja_apis/settings.py changed, reloading.
+INFO 2023-11-17 12:26:58,443  33672  Watching for file changes with StatReloader
+INFO 2023-11-17 12:27:16,224  33672  /Users/michaelkhanda/Desktop/PycharmProjects/daraja_apis/daraja_apis/settings.py changed, reloading.
+INFO 2023-11-17 12:27:17,177  33703  Watching for file changes with StatReloader
+INFO 2023-11-17 12:28:10,357  33703  /Users/michaelkhanda/Desktop/PycharmProjects/daraja_apis/daraja_apis/settings.py changed, reloading.
+INFO 2023-11-17 12:28:10,961  33733  Watching for file changes with StatReloader
+INFO 2023-11-17 12:30:04,279  33733  /Users/michaelkhanda/Desktop/PycharmProjects/daraja_apis/daraja_apis/settings.py changed, reloading.
+INFO 2023-11-17 12:30:05,330  33809  Watching for file changes with StatReloader
+INFO 2023-11-17 12:32:58,611  33809  /Users/michaelkhanda/Desktop/PycharmProjects/daraja_apis/daraja_apis/settings.py changed, reloading.
+INFO 2023-11-17 12:33:00,434  33881  Watching for file changes with StatReloader
+INFO 2023-11-17 12:40:11,576  33881  /Users/michaelkhanda/Desktop/PycharmProjects/daraja_apis/main_app/views.py changed, reloading.
+INFO 2023-11-17 12:40:13,221  34117  Watching for file changes with StatReloader
+INFO 2023-11-17 12:54:58,086  34117  /Users/michaelkhanda/Desktop/PycharmProjects/daraja_apis/main_app/views.py changed, reloading.
+INFO 2023-11-17 12:54:59,778  34397  Watching for file changes with StatReloader
+INFO 2023-11-17 12:55:04,822  34397  +1 (202) 265-7704 47
+DEBUG 2023-11-17 12:55:05,066  34397  Starting new HTTPS connection (1): sandbox.safaricom.co.ke:443
+DEBUG 2023-11-17 12:55:05,693  34397  https://sandbox.safaricom.co.ke:443 "GET /oauth/v1/generate?grant_type=client_credentials HTTP/1.1" 200 None
+DEBUG 2023-11-17 12:55:05,707  34397  Starting new HTTPS connection (1): sandbox.safaricom.co.ke:443
+DEBUG 2023-11-17 12:55:06,434  34397  https://sandbox.safaricom.co.ke:443 "POST /mpesa/stkpush/v1/processrequest HTTP/1.1" 400 None
+DEBUG 2023-11-17 12:55:06,437  34397  {'requestId': '11031-11481710-1', 'errorCode': '400.002.02', 'errorMessage': 'Bad Request - Invalid PhoneNumber'}
+INFO 2023-11-17 12:55:20,189  34397  254792244130 1
+DEBUG 2023-11-17 12:55:20,197  34397  Starting new HTTPS connection (1): sandbox.safaricom.co.ke:443
+DEBUG 2023-11-17 12:55:21,238  34397  https://sandbox.safaricom.co.ke:443 "GET /oauth/v1/generate?grant_type=client_credentials HTTP/1.1" 200 None
+DEBUG 2023-11-17 12:55:21,249  34397  Starting new HTTPS connection (1): sandbox.safaricom.co.ke:443
+DEBUG 2023-11-17 12:55:22,225  34397  https://sandbox.safaricom.co.ke:443 "POST /mpesa/stkpush/v1/processrequest HTTP/1.1" 200 None
+DEBUG 2023-11-17 12:55:22,227  34397  {'MerchantRequestID': '31784-11481564-1', 'CheckoutRequestID': 'ws_CO_17112023155716118792244130', 'ResponseCode': '0', 'ResponseDescription': 'Success. Request accepted for processing', 'CustomerMessage': 'Success. Request accepted for processing'}
+INFO 2023-11-17 13:00:01,547  34397  /Users/michaelkhanda/Desktop/PycharmProjects/daraja_apis/main_app/views.py changed, reloading.
+INFO 2023-11-17 13:00:02,323  34565  Watching for file changes with StatReloader
+INFO 2023-11-17 13:16:43,747  34565  /Users/michaelkhanda/Desktop/PycharmProjects/daraja_apis/main_app/views.py changed, reloading.
+INFO 2023-11-17 13:16:47,234  35082  Watching for file changes with StatReloader
+INFO 2023-11-17 13:18:36,125  35082  /Users/michaelkhanda/Desktop/PycharmProjects/daraja_apis/daraja_apis/settings.py changed, reloading.
+INFO 2023-11-17 13:18:36,846  35133  Watching for file changes with StatReloader
+INFO 2023-11-17 13:19:51,730  35133  254792244130 1
+DEBUG 2023-11-17 13:19:51,957  35133  Starting new HTTPS connection (1): sandbox.safaricom.co.ke:443
+DEBUG 2023-11-17 13:19:52,582  35133  https://sandbox.safaricom.co.ke:443 "GET /oauth/v1/generate?grant_type=client_credentials HTTP/1.1" 200 None
+DEBUG 2023-11-17 13:19:52,600  35133  Starting new HTTPS connection (1): sandbox.safaricom.co.ke:443
+DEBUG 2023-11-17 13:19:53,444  35133  https://sandbox.safaricom.co.ke:443 "POST /mpesa/stkpush/v1/processrequest HTTP/1.1" 200 None
+DEBUG 2023-11-17 13:19:53,446  35133  {'MerchantRequestID': '84125-36357171-1', 'CheckoutRequestID': 'ws_CO_17112023162255374792244130', 'ResponseCode': '0', 'ResponseDescription': 'Success. Request accepted for processing', 'CustomerMessage': 'Success. Request accepted for processing'}
+INFO 2023-11-17 13:19:53,446  35133  84125-36357171-1 ws_CO_17112023162255374792244130
+INFO 2023-11-17 13:20:28,041  35133  254792244130 1
+DEBUG 2023-11-17 13:20:28,052  35133  Starting new HTTPS connection (1): sandbox.safaricom.co.ke:443
+DEBUG 2023-11-17 13:20:28,655  35133  https://sandbox.safaricom.co.ke:443 "GET /oauth/v1/generate?grant_type=client_credentials HTTP/1.1" 200 None
+DEBUG 2023-11-17 13:20:28,662  35133  Starting new HTTPS connection (1): sandbox.safaricom.co.ke:443
+DEBUG 2023-11-17 13:20:29,484  35133  https://sandbox.safaricom.co.ke:443 "POST /mpesa/stkpush/v1/processrequest HTTP/1.1" 200 None
+DEBUG 2023-11-17 13:20:29,486  35133  {'MerchantRequestID': '85305-108271479-1', 'CheckoutRequestID': 'ws_CO_17112023162223417792244130', 'ResponseCode': '0', 'ResponseDescription': 'Success. Request accepted for processing', 'CustomerMessage': 'Success. Request accepted for processing'}
+INFO 2023-11-17 13:20:29,487  35133  85305-108271479-1 ws_CO_17112023162223417792244130
+INFO 2023-11-17 13:21:01,771  35133  /Users/michaelkhanda/Desktop/PycharmProjects/daraja_apis/main_app/views.py changed, reloading.
+INFO 2023-11-17 13:21:02,478  35182  Watching for file changes with StatReloader
+INFO 2023-11-17 13:21:25,022  35182  254792244130 1
+DEBUG 2023-11-17 13:21:25,260  35182  Starting new HTTPS connection (1): sandbox.safaricom.co.ke:443
+DEBUG 2023-11-17 13:21:25,866  35182  https://sandbox.safaricom.co.ke:443 "GET /oauth/v1/generate?grant_type=client_credentials HTTP/1.1" 200 None
+DEBUG 2023-11-17 13:21:25,876  35182  Starting new HTTPS connection (1): sandbox.safaricom.co.ke:443
+DEBUG 2023-11-17 13:21:26,831  35182  https://sandbox.safaricom.co.ke:443 "POST /mpesa/stkpush/v1/processrequest HTTP/1.1" 200 None
+DEBUG 2023-11-17 13:21:26,833  35182  {'MerchantRequestID': '11033-11536722-1', 'CheckoutRequestID': 'ws_CO_17112023162320774792244130', 'ResponseCode': '0', 'ResponseDescription': 'Success. Request accepted for processing', 'CustomerMessage': 'Success. Request accepted for processing'}
+INFO 2023-11-17 13:21:26,834  35182  11033-11536722-1 ws_CO_17112023162320774792244130
+INFO 2023-11-17 13:34:21,870  35182  /Users/michaelkhanda/Desktop/PycharmProjects/daraja_apis/main_app/views.py changed, reloading.
+INFO 2023-11-17 13:34:22,583  35586  Watching for file changes with StatReloader
+INFO 2023-11-17 13:39:26,729  35586  254792244130 1
+DEBUG 2023-11-17 13:39:26,988  35586  Starting new HTTPS connection (1): sandbox.safaricom.co.ke:443
+DEBUG 2023-11-17 13:39:27,608  35586  https://sandbox.safaricom.co.ke:443 "GET /oauth/v1/generate?grant_type=client_credentials HTTP/1.1" 200 None
+DEBUG 2023-11-17 13:39:27,623  35586  Starting new HTTPS connection (1): sandbox.safaricom.co.ke:443
+DEBUG 2023-11-17 13:39:28,506  35586  https://sandbox.safaricom.co.ke:443 "POST /mpesa/stkpush/v1/processrequest HTTP/1.1" 200 None
+DEBUG 2023-11-17 13:39:28,510  35586  {'MerchantRequestID': '31770-11573878-1', 'CheckoutRequestID': 'ws_CO_17112023164230490792244130', 'ResponseCode': '0', 'ResponseDescription': 'Success. Request accepted for processing', 'CustomerMessage': 'Success. Request accepted for processing'}
+INFO 2023-11-17 13:39:28,510  35586  31770-11573878-1 ws_CO_17112023164230490792244130
+INFO 2023-11-17 13:39:50,799  35586  254792244130 1
+DEBUG 2023-11-17 13:39:50,805  35586  Starting new HTTPS connection (1): sandbox.safaricom.co.ke:443
+DEBUG 2023-11-17 13:39:51,179  35586  https://sandbox.safaricom.co.ke:443 "GET /oauth/v1/generate?grant_type=client_credentials HTTP/1.1" 200 None
+DEBUG 2023-11-17 13:39:51,191  35586  Starting new HTTPS connection (1): sandbox.safaricom.co.ke:443
+DEBUG 2023-11-17 13:39:52,056  35586  https://sandbox.safaricom.co.ke:443 "POST /mpesa/stkpush/v1/processrequest HTTP/1.1" 200 None
+DEBUG 2023-11-17 13:39:52,059  35586  {'MerchantRequestID': '42470-41916512-1', 'CheckoutRequestID': 'ws_CO_17112023164254028792244130', 'ResponseCode': '0', 'ResponseDescription': 'Success. Request accepted for processing', 'CustomerMessage': 'Success. Request accepted for processing'}
+INFO 2023-11-17 13:39:52,059  35586  42470-41916512-1 ws_CO_17112023164254028792244130
+WARNING 2023-11-17 13:43:43,831  35586  Not Found: /favicon.ico
+INFO 2023-11-17 13:44:35,479  35586  /Users/michaelkhanda/Desktop/PycharmProjects/daraja_apis/daraja_apis/settings.py changed, reloading.
+INFO 2023-11-17 13:44:36,859  37171  Watching for file changes with StatReloader
+INFO 2023-11-17 13:56:22,830  37171  /Users/michaelkhanda/Desktop/PycharmProjects/daraja_apis/main_app/views.py changed, reloading.
+INFO 2023-11-17 13:56:23,735  37330  Watching for file changes with StatReloader
