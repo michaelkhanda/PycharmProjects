@@ -89,3 +89,112 @@ INFO 2023-11-17 13:44:35,479  35586  /Users/michaelkhanda/Desktop/PycharmProject
 INFO 2023-11-17 13:44:36,859  37171  Watching for file changes with StatReloader
 INFO 2023-11-17 13:56:22,830  37171  /Users/michaelkhanda/Desktop/PycharmProjects/daraja_apis/main_app/views.py changed, reloading.
 INFO 2023-11-17 13:56:23,735  37330  Watching for file changes with StatReloader
+INFO 2023-11-26 19:56:54,168  3027  Watching for file changes with StatReloader
+WARNING 2023-11-26 19:56:57,655  3027  Not Found: /guidelines/
+WARNING 2023-11-26 19:56:58,618  3027  Not Found: /guidelines/
+INFO 2023-11-26 19:57:19,028  3027  254792244130 3
+DEBUG 2023-11-26 19:57:19,474  3027  Starting new HTTPS connection (1): sandbox.safaricom.co.ke:443
+DEBUG 2023-11-26 19:57:20,186  3027  https://sandbox.safaricom.co.ke:443 "GET /oauth/v1/generate?grant_type=client_credentials HTTP/1.1" 200 None
+DEBUG 2023-11-26 19:57:20,198  3027  Starting new HTTPS connection (1): sandbox.safaricom.co.ke:443
+DEBUG 2023-11-26 19:57:21,150  3027  https://sandbox.safaricom.co.ke:443 "POST /mpesa/stkpush/v1/processrequest HTTP/1.1" 200 None
+DEBUG 2023-11-26 19:57:21,152  3027  {'MerchantRequestID': '9039-36799307-1', 'CheckoutRequestID': 'ws_CO_26112023230027137792244130', 'ResponseCode': '0', 'ResponseDescription': 'Success. Request accepted for processing', 'CustomerMessage': 'Success. Request accepted for processing'}
+INFO 2023-11-26 19:57:21,152  3027  9039-36799307-1 ws_CO_26112023230027137792244130
+WARNING 2023-11-26 20:01:04,348  3027  Not Found: /favicon.ico
+ERROR 2023-11-26 20:01:16,694  3027  Internal Server Error: /callback
+Traceback (most recent call last):
+  File "/Users/michaelkhanda/Desktop/PycharmProjects/daraja_apis/venv/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/michaelkhanda/Desktop/PycharmProjects/daraja_apis/venv/lib/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/michaelkhanda/Desktop/PycharmProjects/daraja_apis/venv/lib/python3.9/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/Users/michaelkhanda/Desktop/PycharmProjects/daraja_apis/main_app/views.py", line 59, in callback
+    result = json.loads(request.body)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+INFO 2023-11-26 20:01:40,407  3027  254792244130 1
+DEBUG 2023-11-26 20:01:40,632  3027  Starting new HTTPS connection (1): sandbox.safaricom.co.ke:443
+DEBUG 2023-11-26 20:01:41,226  3027  https://sandbox.safaricom.co.ke:443 "GET /oauth/v1/generate?grant_type=client_credentials HTTP/1.1" 200 None
+DEBUG 2023-11-26 20:01:41,235  3027  Starting new HTTPS connection (1): sandbox.safaricom.co.ke:443
+DEBUG 2023-11-26 20:01:43,190  3027  https://sandbox.safaricom.co.ke:443 "POST /mpesa/stkpush/v1/processrequest HTTP/1.1" 200 None
+DEBUG 2023-11-26 20:01:43,191  3027  {'MerchantRequestID': '18150-136904616-1', 'CheckoutRequestID': 'ws_CO_26112023230449190792244130', 'ResponseCode': '0', 'ResponseDescription': 'Success. Request accepted for processing', 'CustomerMessage': 'Success. Request accepted for processing'}
+INFO 2023-11-26 20:01:43,192  3027  18150-136904616-1 ws_CO_26112023230449190792244130
+INFO 2023-11-26 20:02:59,023  3027  254792244130 1
+DEBUG 2023-11-26 20:02:59,245  3027  Starting new HTTPS connection (1): sandbox.safaricom.co.ke:443
+DEBUG 2023-11-26 20:02:59,853  3027  https://sandbox.safaricom.co.ke:443 "GET /oauth/v1/generate?grant_type=client_credentials HTTP/1.1" 200 None
+DEBUG 2023-11-26 20:02:59,862  3027  Starting new HTTPS connection (1): sandbox.safaricom.co.ke:443
+DEBUG 2023-11-26 20:03:01,079  3027  https://sandbox.safaricom.co.ke:443 "POST /mpesa/stkpush/v1/processrequest HTTP/1.1" 200 None
+DEBUG 2023-11-26 20:03:01,085  3027  {'MerchantRequestID': '9448-65151524-1', 'CheckoutRequestID': 'ws_CO_26112023230607042792244130', 'ResponseCode': '0', 'ResponseDescription': 'Success. Request accepted for processing', 'CustomerMessage': 'Success. Request accepted for processing'}
+INFO 2023-11-26 20:03:01,088  3027  9448-65151524-1 ws_CO_26112023230607042792244130
+INFO 2023-11-27 21:12:40,040  11474  Watching for file changes with StatReloader
+INFO 2023-11-27 21:13:06,401  11474  254792244130 1
+DEBUG 2023-11-27 21:13:06,688  11474  Starting new HTTPS connection (1): sandbox.safaricom.co.ke:443
+DEBUG 2023-11-27 21:13:07,607  11474  https://sandbox.safaricom.co.ke:443 "GET /oauth/v1/generate?grant_type=client_credentials HTTP/1.1" 200 None
+DEBUG 2023-11-27 21:13:07,622  11474  Starting new HTTPS connection (1): sandbox.safaricom.co.ke:443
+DEBUG 2023-11-27 21:13:08,460  11474  https://sandbox.safaricom.co.ke:443 "POST /mpesa/stkpush/v1/processrequest HTTP/1.1" 200 None
+DEBUG 2023-11-27 21:13:08,461  11474  {'MerchantRequestID': '85303-142338707-9', 'CheckoutRequestID': 'ws_CO_28112023001614630792244130', 'ResponseCode': '0', 'ResponseDescription': 'Success. Request accepted for processing', 'CustomerMessage': 'Success. Request accepted for processing'}
+INFO 2023-11-27 21:13:08,462  11474  85303-142338707-9 ws_CO_28112023001614630792244130
+INFO 2023-11-27 21:14:01,322  11515  Watching for file changes with StatReloader
+INFO 2023-11-27 21:14:05,852  11515  254792244130 1
+DEBUG 2023-11-27 21:14:06,080  11515  Starting new HTTPS connection (1): sandbox.safaricom.co.ke:443
+DEBUG 2023-11-27 21:14:06,440  11515  https://sandbox.safaricom.co.ke:443 "GET /oauth/v1/generate?grant_type=client_credentials HTTP/1.1" 200 None
+DEBUG 2023-11-27 21:14:06,449  11515  Starting new HTTPS connection (1): sandbox.safaricom.co.ke:443
+DEBUG 2023-11-27 21:14:07,537  11515  https://sandbox.safaricom.co.ke:443 "POST /mpesa/stkpush/v1/processrequest HTTP/1.1" 200 None
+DEBUG 2023-11-27 21:14:07,539  11515  {'MerchantRequestID': '7194-24262551-1', 'CheckoutRequestID': 'ws_CO_28112023001713624792244130', 'ResponseCode': '0', 'ResponseDescription': 'Success. Request accepted for processing', 'CustomerMessage': 'Success. Request accepted for processing'}
+INFO 2023-11-27 21:14:07,539  11515  7194-24262551-1 ws_CO_28112023001713624792244130
+INFO 2023-11-27 21:14:13,106  11515  254792244130 1
+DEBUG 2023-11-27 21:14:13,113  11515  Starting new HTTPS connection (1): sandbox.safaricom.co.ke:443
+DEBUG 2023-11-27 21:14:13,476  11515  https://sandbox.safaricom.co.ke:443 "GET /oauth/v1/generate?grant_type=client_credentials HTTP/1.1" 200 None
+DEBUG 2023-11-27 21:14:13,482  11515  Starting new HTTPS connection (1): sandbox.safaricom.co.ke:443
+DEBUG 2023-11-27 21:14:14,375  11515  https://sandbox.safaricom.co.ke:443 "POST /mpesa/stkpush/v1/processrequest HTTP/1.1" 200 None
+DEBUG 2023-11-27 21:14:14,378  11515  {'MerchantRequestID': '8658-39662416-1', 'CheckoutRequestID': 'ws_CO_28112023001720590792244130', 'ResponseCode': '0', 'ResponseDescription': 'Success. Request accepted for processing', 'CustomerMessage': 'Success. Request accepted for processing'}
+INFO 2023-11-27 21:14:14,378  11515  8658-39662416-1 ws_CO_28112023001720590792244130
+INFO 2023-11-27 21:14:26,136  11515  +254792244130 1
+DEBUG 2023-11-27 21:14:26,144  11515  Starting new HTTPS connection (1): sandbox.safaricom.co.ke:443
+DEBUG 2023-11-27 21:14:26,494  11515  https://sandbox.safaricom.co.ke:443 "GET /oauth/v1/generate?grant_type=client_credentials HTTP/1.1" 200 None
+DEBUG 2023-11-27 21:14:26,502  11515  Starting new HTTPS connection (1): sandbox.safaricom.co.ke:443
+DEBUG 2023-11-27 21:14:27,194  11515  https://sandbox.safaricom.co.ke:443 "POST /mpesa/stkpush/v1/processrequest HTTP/1.1" 400 None
+DEBUG 2023-11-27 21:14:27,196  11515  {'requestId': '31783-45725800-1', 'errorCode': '400.002.02', 'errorMessage': 'Bad Request - Invalid PhoneNumber'}
+ERROR 2023-11-27 21:14:27,316  11515  Internal Server Error: /
+Traceback (most recent call last):
+  File "/Users/michaelkhanda/Desktop/PycharmProjects/daraja_apis/venv/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/michaelkhanda/Desktop/PycharmProjects/daraja_apis/venv/lib/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/michaelkhanda/Desktop/PycharmProjects/daraja_apis/main_app/views.py", line 50, in initiate_payment
+    elif "errorCode" in json:
+TypeError: argument of type 'module' is not iterable
+INFO 2023-11-27 21:14:48,851  11515  254792244130 1
+DEBUG 2023-11-27 21:14:49,065  11515  Starting new HTTPS connection (1): sandbox.safaricom.co.ke:443
+DEBUG 2023-11-27 21:14:49,669  11515  https://sandbox.safaricom.co.ke:443 "GET /oauth/v1/generate?grant_type=client_credentials HTTP/1.1" 200 None
+DEBUG 2023-11-27 21:14:49,676  11515  Starting new HTTPS connection (1): sandbox.safaricom.co.ke:443
+DEBUG 2023-11-27 21:14:50,574  11515  https://sandbox.safaricom.co.ke:443 "POST /mpesa/stkpush/v1/processrequest HTTP/1.1" 200 None
+DEBUG 2023-11-27 21:14:50,576  11515  {'MerchantRequestID': '84111-70418652-1', 'CheckoutRequestID': 'ws_CO_28112023001756778792244130', 'ResponseCode': '0', 'ResponseDescription': 'Success. Request accepted for processing', 'CustomerMessage': 'Success. Request accepted for processing'}
+INFO 2023-11-27 21:14:50,576  11515  84111-70418652-1 ws_CO_28112023001756778792244130
+INFO 2023-11-27 21:23:30,676  11688  Watching for file changes with StatReloader
+INFO 2023-11-27 21:23:39,570  11688  254792244130 1
+DEBUG 2023-11-27 21:23:39,808  11688  Starting new HTTPS connection (1): sandbox.safaricom.co.ke:443
+DEBUG 2023-11-27 21:23:40,411  11688  https://sandbox.safaricom.co.ke:443 "GET /oauth/v1/generate?grant_type=client_credentials HTTP/1.1" 200 None
+DEBUG 2023-11-27 21:23:40,431  11688  Starting new HTTPS connection (1): sandbox.safaricom.co.ke:443
+DEBUG 2023-11-27 21:23:41,626  11688  https://sandbox.safaricom.co.ke:443 "POST /mpesa/stkpush/v1/processrequest HTTP/1.1" 200 None
+DEBUG 2023-11-27 21:23:41,629  11688  {'MerchantRequestID': '40262-12189896-1', 'CheckoutRequestID': 'ws_CO_28112023002539213792244130', 'ResponseCode': '0', 'ResponseDescription': 'Success. Request accepted for processing', 'CustomerMessage': 'Success. Request accepted for processing'}
+INFO 2023-11-27 21:23:41,629  11688  40262-12189896-1 ws_CO_28112023002539213792244130
+INFO 2023-11-27 21:24:02,724  11688  254792244130 1
+DEBUG 2023-11-27 21:24:02,736  11688  Starting new HTTPS connection (1): sandbox.safaricom.co.ke:443
+DEBUG 2023-11-27 21:24:03,313  11688  https://sandbox.safaricom.co.ke:443 "GET /oauth/v1/generate?grant_type=client_credentials HTTP/1.1" 200 None
+DEBUG 2023-11-27 21:24:03,324  11688  Starting new HTTPS connection (1): sandbox.safaricom.co.ke:443
+DEBUG 2023-11-27 21:24:04,145  11688  https://sandbox.safaricom.co.ke:443 "POST /mpesa/stkpush/v1/processrequest HTTP/1.1" 200 None
+DEBUG 2023-11-27 21:24:04,149  11688  {'MerchantRequestID': '31770-45751375-1', 'CheckoutRequestID': 'ws_CO_28112023002601891792244130', 'ResponseCode': '0', 'ResponseDescription': 'Success. Request accepted for processing', 'CustomerMessage': 'Success. Request accepted for processing'}
+INFO 2023-11-27 21:24:04,149  11688  31770-45751375-1 ws_CO_28112023002601891792244130
+INFO 2023-11-27 21:30:06,326  11688  254792244130 1
+DEBUG 2023-11-27 21:30:06,566  11688  Starting new HTTPS connection (1): sandbox.safaricom.co.ke:443
+DEBUG 2023-11-27 21:30:07,201  11688  https://sandbox.safaricom.co.ke:443 "GET /oauth/v1/generate?grant_type=client_credentials HTTP/1.1" 200 None
+DEBUG 2023-11-27 21:30:07,212  11688  Starting new HTTPS connection (1): sandbox.safaricom.co.ke:443
+DEBUG 2023-11-27 21:30:08,194  11688  https://sandbox.safaricom.co.ke:443 "POST /mpesa/stkpush/v1/processrequest HTTP/1.1" 200 None
+DEBUG 2023-11-27 21:30:08,195  11688  {'MerchantRequestID': '42445-76352271-1', 'CheckoutRequestID': 'ws_CO_28112023003314398792244130', 'ResponseCode': '0', 'ResponseDescription': 'Success. Request accepted for processing', 'CustomerMessage': 'Success. Request accepted for processing'}
+INFO 2023-11-27 21:30:08,196  11688  42445-76352271-1 ws_CO_28112023003314398792244130
